@@ -37,12 +37,12 @@ Before building the dashboard, a rigorous data cleaning process was executed to 
 | :--- | :---: |
 | **Executive Overview:**<br> This dashboard evaluates the operational and financial performance of a $2.3M Superstore dataset. It is designed to track net profitability, identify cost leaks, and highlight areas where operational efficiency can be improved.<br><br>**Strategic KPI Insights:**<br> **Sales vs. Profits:** The business achieved **$2.30M in Total Sales** with **38K units sold**, which generated **$286.40K in Total Profit**.<br> **The Margin Challenge:** The overall **Profit Margin is 12.11%**. This shows that while sales volume is high, profit margins are being compressed, indicating a clear need to optimize discounting strategies and logistical costs. | <img src="kpi_cards.png_01.png" width="600"> |
 
-## Sales vs. Profit Performance by Category
+## Sales vs Profit Performance by Category
 
 | Category Analysis | Sales & Profit Overview |
 | :--- | :---: |
 | **The Furniture Profit Gap:**<br> An analysis of the primary product categories reveals a clear gap between sales volume and actual profitability. While **Furniture** generated **$742K in Sales**—which is almost equal to Office Supplies ($719K)—its net profit was only **$18.45K** compared to **$122.49K** for Office Supplies.<br><br>**Key Takeaway:**<br> This means Furniture brought in high revenue but failed to convert it into profits, resulting in a significantly lower net return.<br><br> *In the next section, we will look closely at the sub-categories to find out exactly why Furniture is losing its profit margin, focusing on the impact of discounts.* | <img src="02_category_sales_profit.png" width="735"> |
-## Sub-Category Profitability & Discount Matrix
+## Sub Category Profitability & Discount Matrix
 
 | Discount vs. Profit Leak Insights | Sub-Category Matrix Visual |
 | :--- | :---: |
@@ -52,8 +52,19 @@ Before building the dashboard, a rigorous data cleaning process was executed to 
 | Regional Profit Distribution Analysis | Sum of Profit by Region Visual |
 | :--- | :---: |
 | **Geographic Profit Overview:**<br> This chart provides a high-level view of how net profit is distributed across the four primary operational regions. While the **West** leads performance at **$108K (38%)**, followed closely by the **East** at **$92K (32%)**, there is a noticeable drop in the remaining territories.<br><br>**The Underperforming Region:**<br> The data highlights that the **Central Region** is the lowest-performing zone, contributing only **$40K (14%)** to the total profit baseline.<br><br> *In the next section, we will deep dive into the Central Region's specific metrics to uncover the primary root cause behind this underperformance specifically focusing on the impact of aggressive promotional discounting.* | <img src="regional_shipping.png_04.png" width="735"> |
-## Section 4: Central Region Deep-Dive & Margin Analysis
+## Central Region Deep Dive & Margin Analysis
 
 | Central Region Discount Paradox | Sub-Category Regional Filter Visual |
 | :--- | :---: |
-| **The Regional Discount Paradox:**<br> Filtering the data specifically for the **Central Region** reveals a critical operational breakdown. Products that are highly profitable on a national level suddenly turn into heavy losses here due to extreme, un-optimized promotional discounting.<br><br>**The Margin Erosion Breakdown:**<br>- **Binders:** Average discounts skyrocketed to **50.93%**, shifting a normally profitable item into a net loss of **-$1,043.71**.<br>- **Appliances:** Average discounts reached **44.88%**, driving profits down to **-$2,638.61**.<br>- **Furnishings:** Average discounts hit **40.39%**, resulting in a **-$3,906.18** deficit.<br><br>👉 *This severe margin compression across multiple stable categories indicates an immediate need for localized pricing corrections and structural changes, which are detailed in the final recommendations section below.* | <img src="05_central_region_leak.png" width="380"> |
+| **The Regional Discount Paradox:**<br> Filtering the data specifically for the **Central Region** reveals a critical operational breakdown. Products that are highly profitable on a national level suddenly turn into heavy losses here due to extreme, un-optimized promotional discounting.<br><br>**The Margin Erosion Breakdown:**<br> **Binders:** Average discounts skyrocketed to **50.93%**, shifting a normally profitable item into a net loss of **-$1,043.71**.<br> **Appliances:** Average discounts reached **44.88%**, driving profits down to **-$2,638.61**.<br> **Furnishings:** Average discounts hit **40.39%**, resulting in a **-$3,906.18** deficit.<br><br> *This severe margin compression across multiple stable categories indicates an immediate need for localized pricing corrections and structural changes, which are detailed in the final recommendations section below.* | <img src="central_region_leak.png_05.png" width="635"> |
+---
+
+##  Strategic Recommendations for Management
+
+Based on the data insights and profit leaks identified across sub-categories and territories, the following actions are recommended to optimize business profitability:
+
+ **Enforce Table Discount Control:** Immediately reduce the aggressive average discount rate on **Tables**. It is recommended to implement a strict discount cap or re-evaluate the baseline pricing structure to halt this primary financial drain.
+ 
+ **Correct Bookcases & Supplies Pricing:** Apply similar discount corrections to **Bookcases** and **Supplies** within underperforming segments. Lowering these promotional rates is vital to pulling these sub categories out of their net deficit.
+ 
+ **Standardize Central Region Discount Policies:** Address the root cause of underperformance in the **Central Region**. The data proves its low profitability is driven by extreme discounting policies that radically deviate from other successful regions. You must lower and standardize these regional promotional rates to align with national baselines.
